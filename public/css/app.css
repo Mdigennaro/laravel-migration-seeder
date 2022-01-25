@@ -17044,3 +17044,8 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+header {
+  height: 100px;
+  padding-top: 10px;
+}
+

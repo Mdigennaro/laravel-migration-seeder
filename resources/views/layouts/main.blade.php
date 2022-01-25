@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
-  <title>Migration seeder</title>
+  <title>Travel agency</title>
 </head>
 <body>
 

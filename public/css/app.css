@@ -17045,7 +17045,43 @@ readers do not read off random characters that represent icons */
 }
 
 header {
-  height: 100px;
+  height: 80px;
   padding-top: 10px;
+  background-color: #f1f16f;
+}
+
+header h1 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header ul li a {
+  color: rgba(248, 180, 52, 0.863);
+  font-size: 20px;
+}
+
+header ul li a:hover {
+  color: #ffa807;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgba(248, 180, 52, 0.863);
+}
+
+main {
+  text-align: center;
+  background-image: linear-gradient(to top, #3afa3a, #f1f16f);
+  padding-top: 30px;
+}
+
+main h1 {
+  color: #0e770e;
+}
+
+table thead tr th {
+  color: #106310;
 }
 
